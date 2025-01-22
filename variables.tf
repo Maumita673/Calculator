@@ -10,7 +10,7 @@ variable "ami" {
 
 variable "bucket_name" {
   description = "Name of the S3 bucket"
-  default     = "my-demo-bucket"
+  default     = "my-demo-bucket_aws"
 }
 
 variable "vpc_cidr" {
