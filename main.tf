@@ -37,7 +37,7 @@ resource "aws_instance" "demo_instance" {
   }
 }
 
-resource "aws_s3_bucket" "demo_bucket_aws" {
+resource "aws_s3_bucket" "demo_bucket" {
   bucket = var.bucket_name
   acl    = "private"
 }
